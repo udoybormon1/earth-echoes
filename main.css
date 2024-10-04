@@ -45,6 +45,16 @@ header nav ul li a:hover {
     padding: 30px;
 }
 
+/* Title Styles for Problems and Solutions */
+.segment h1 {
+    color: white; /* Changed title color to white */
+}
+
+/* Submit Your Solution Title Style */
+.solution-form-container h2 {
+    color: white; /* Changed title color to white */
+}
+
 /* Card Styles */
 .card {
     background: rgba(255, 255, 255, 0.7);

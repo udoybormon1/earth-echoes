@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Solutions</title>
+    <!-- Link the main.css file -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css"> <!-- Linked main.css -->
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Container with grid layout for segments -->
+    <div class="horizontal-container">
+        <!-- Problem Segment -->
+        <section id="problem" class="segment">
+            <h1>Problems</h1>
+            <div class="card-grid">
+                <!-- Problem Cards -->
+                <div class="card">
+                    <h3>CO2 Emissions</h3>
+                    <p><strong>Problem:</strong> CO2 emissions, primarily from fossil fuel combustion (coal, oil, and natural gas), continue to rise globally.</p>
+                    <p><strong>Impact:</strong> The increasing concentration of CO2 in the atmosphere is linked to rising global temperatures, sea level rise, and extreme weather patterns.</p>
+                </div>
+                <div class="card">
+                    <h3>Methane Emissions</h3>
+                    <p><strong>Problem:</strong> Methane emissions from agriculture and energy production are rapidly increasing.</p>
+                    <p><strong>Impact:</strong> Methane has a much higher warming potential than CO2, contributing to short-term warming.</p>
+                </div>
+                <div class="card">
+                    <h3>Transportation Emissions</h3>
+                    <p><strong>Problem:</strong> Transportation, reliant on fossil fuels, remains a large source of emissions.</p>
+                    <p><strong>Impact:</strong> These emissions contribute to climate change and air quality issues.</p>
+                </div>
+                <div class="card">
+                    <h3>Fossil Fuel Reliance</h3>
+                    <p><strong>Problem:</strong> Energy production is still heavily dependent on fossil fuels, contributing to significant global emissions.</p>
+                    <p><strong>Impact:</strong> This reliance increases carbon footprints and hampers climate goals.</p>
+                </div>
+                <div class="card">
+                    <h3>Industrial Emissions</h3>
+                    <p><strong>Problem:</strong> Industrial activities release large amounts of CO2 and other pollutants.</p>
+                    <p><strong>Impact:</strong> These emissions contribute to global warming and affect air quality.</p>
+                </div>
+                <div class="card">
+                    <h3>Deforestation</h3>
+                    <p><strong>Problem:</strong> Deforestation and land-use changes reduce the Earth's capacity to absorb CO2.</p>
+                    <p><strong>Impact:</strong> Loss of forests reduces biodiversity and increases atmospheric CO2 levels.</p>
+                </div>
+                <div class="card">
+                    <h3>Waste Management</h3>
+                    <p><strong>Problem:</strong> Improper waste management leads to methane emissions from landfills.</p>
+                    <p><strong>Impact:</strong> This poses environmental and health risks due to poor sanitation.</p>
+                </div>
+                <div class="card">
+                    <h3>Inconsistent Policies</h3>
+                    <p><strong>Problem:</strong> Lack of global coordination and inconsistent climate policies are hindering progress.</p>
+                    <p><strong>Impact:</strong> These fragmented efforts make it difficult to meet climate targets.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solution Segment -->
+        <section id="solutions" class="segment">
+            <h1>Solutions</h1>
+            <div class="card-grid">
+                <!-- Solution Cards -->
+                <div class="card">
+                    <h3>Renewable Energy</h3>
+                    <p>Investing in renewable energy sources like solar and wind helps reduce carbon emissions from fossil fuels.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Sustainable Agriculture</h3>
+                    <p>Implementing sustainable farming practices reduces the environmental impact of agriculture.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Electric Vehicles</h3>
+                    <p>Transitioning to electric vehicles reduces emissions from the transportation sector.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Reforestation</h3>
+                    <p>Restoring forests helps absorb CO2 and mitigate the effects of deforestation.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Energy Efficiency</h3>
+                    <p>Improving energy efficiency reduces energy consumption and greenhouse gas emissions.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Waste Management</h3>
+                    <p>Proper waste management and recycling can reduce methane emissions from landfills.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Green Building Design</h3>
+                    <p>Designing eco-friendly buildings with sustainable materials lowers carbon footprints.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Carbon Capture</h3>
+                    <p>Technologies that capture and store carbon emissions can reduce the effects of industrial pollution.</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+
+            <!-- Submission Form -->
+            <div class="solution-form-container">
+                <h2>Submit Your Solution</h2>
+                <form id="solutionForm">
+                    <input type="text" name="solutionTitle" placeholder="Solution Title" required>
+                    <textarea name="solutionDescription" placeholder="Describe Your Solution" required></textarea>
+                    <input type="submit" value="Submit Solution">
+                </form>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
